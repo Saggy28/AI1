@@ -1,0 +1,59 @@
+body {
+    background: url('pokemon_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333333;
+    font-family: 'Verdana', sans-serif;
+}
+
+header {
+    background-color: rgba(244, 164, 96, 0.85);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #c1440e;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+h3 {
+    color: #8b4513;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(139, 69, 19, 0.6);
+}
+
+ul {
+    list-style-type: disc;
+    color: #c1440e;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: rgba(70, 130, 180, 0.85);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4682b4;
+}
