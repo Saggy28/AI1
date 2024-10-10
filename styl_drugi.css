@@ -1,59 +1,156 @@
+/* Styl ogólny */
 body {
-    background: url('pokemon_background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #333333;
-    font-family: 'Verdana', sans-serif;
+    background-color: #e0f7fa; /* Jasne, wodne tło */
+    background-image: url('pokemon.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    color: #2c3e50; /* Ciemny kolor dla kontrastu */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
+/* Nagłówek */
 header {
-    background-color: rgba(244, 164, 96, 0.85);
-    padding: 20px;
+    background-color: #3498db; /* Kolor wody */
+    padding: 40px;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 4px solid #2980b9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #d1ecf1;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/* Sekcje treści */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Lekko przezroczyste tło */
     border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-h1, h2 {
-    color: #c1440e;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-h3 {
-    color: #8b4513;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 20px;
     line-height: 1.8;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(139, 69, 19, 0.6);
 }
 
+p:first-letter {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #3498db;
+}
+
+/* Listy */
 ul {
     list-style-type: disc;
-    color: #c1440e;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
+ul li {
+    background: rgba(52, 152, 219, 0.2); /* Jasnoniebieski akcent */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+/* Stopka */
 footer {
-    background-color: rgba(70, 130, 180, 0.85);
+    background-color: #2c3e50;
     color: #ffffff;
     text-align: center;
-    padding: 10px;
-    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 4px solid #2980b9;
 }
 
+footer a {
+    color: #76c7c0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* Linki */
 a {
-    color: #2e8b57;
+    color: #3498db;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #4682b4;
+    color: #1abc9c;
+}
+
+/* Przycisk */
+button {
+    background-color: #1abc9c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }
