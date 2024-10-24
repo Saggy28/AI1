@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista zadań</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <h1>Lista zadań</h1>
+
+    <div class="search-container">
+        <i class="fas fa-search"></i>
+        <input type="text" id="search" placeholder="Wyszukaj zadania...">
+    </div>
+
+    <ul id="task-list">
+        <!-- Lista początkowo pusta -->
+    </ul>
+
+    <div id="new-task-form">
+        <input type="text" id="task-input" placeholder="Nowe zadanie">
+        <div class="date-container">
+            <i class="fas fa-calendar-alt"></i>
+            <input type="datetime-local" id="task-deadline">
+        </div>
+        <button id="add-task-btn">Dodaj zadanie</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
