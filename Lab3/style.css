@@ -1,0 +1,36 @@
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#map {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+#puzzleContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 0;
+    border: 1px solid #000;
+}
+.puzzle-slot {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+}
+#piecesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-top: 20px;
+    gap: 0;
+}
+.puzzle-piece {
+    width: 100px;
+    height: 100px;
+    cursor: grab;
+    margin: 0;
+    border: 1px solid #000;
+}

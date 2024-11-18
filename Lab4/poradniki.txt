@@ -1,0 +1,3 @@
+json.main.temp
+json.weather[0].main
+<img src= link i zdjecie>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pogoda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Sprawdź pogodę</h1>
+    <div class="form-group">
+        <input type="text" id="city-input" placeholder="Wpisz nazwę miasta">
+        <button id="get-weather">Pokaż pogodę</button>
+    </div>
+    <div id="weather-result">
+        <h2 id="city-name"></h2>
+        <p id="temperature"></p>
+        <p id="description"></p>
+        <img id="weather-icon" src="" alt="Ikona pogody">
+    </div>
+    <div id="forecast-result">
+
+        <ul id="forecast-list"></ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
