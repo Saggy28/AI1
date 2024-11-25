@@ -1,0 +1,2 @@
+plik .gitignore
+node_modules

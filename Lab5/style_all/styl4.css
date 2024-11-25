@@ -1,0 +1,48 @@
+/* fantasy.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: url('pokemon-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px 20px;
+    border-bottom: 3px solid #ffcc00;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ffcc00;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    color: #ffcc00;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid #ffcc00;
+}
