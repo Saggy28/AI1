@@ -1,0 +1,25 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+node_modules/
+# Ignoruj wszystkie pliki binarne z typowymi rozszerzeniami
+*.exe
+*.dll
+*.bin
+*.jpg
+*.png
+*.zip
+*.rar
+*.pdf
+
+# Ignoruj całe foldery z artefaktami kompilacji/zbuildowanymi plikami
+bin/
+obj/
+build/
+dist/
+node_modules/

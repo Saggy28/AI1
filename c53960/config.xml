@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="pl.edu.zut.wi.gs53960" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Szymon 53960</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="gs53960@zut.edu.pl" href="https://cordova.apache.org">
+        Szymon Górnik
+    </author>
+    <content src="weather.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="electron">
+    <icon src="res/electron/pic.png" />
+	<preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
+    </platform>
+
+</widget>
